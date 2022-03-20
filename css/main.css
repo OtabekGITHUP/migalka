@@ -1,0 +1,109 @@
+@import url(reset.css);
+@keyframes PUBG {
+    0% {
+        background-color: blue;
+    }
+    10% {
+        background-color: red;
+    }
+    20% {
+        background-color: blue;
+    }
+    30% {
+        background-color: red;
+    }
+    40% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    60% {
+        background-color: blue;
+    }
+    70% {
+        background-color: red;
+    }
+    80% {
+        background-color: blue;
+    } 
+    90% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+.ace {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    display: flex;
+
+}
+.block {
+    text-align: center;
+    line-height: 300px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    border: 3px solid black;
+    font-weight: bold;
+    color: black;
+}
+.block1{
+    text-align: center;
+    top: left;
+    width: 50%;
+    height: 300px;
+    animation-name: PUBG;
+    animation-duration: 3s;
+    animation-iteration-count: 1000;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes tomy {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: red;
+    }
+    30% {
+        background-color: blue;
+    }
+    40% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    60% {
+        background-color: red;
+    }
+    70% {
+        background-color: blue;
+    }
+    80% {
+        background-color: red;
+    }
+    90% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+.block2{
+    text-align: center;
+    top: right;
+    width: 50%;
+    height: 300px;
+    animation-name: tomy;
+    animation-duration: 3s;
+    animation-iteration-count: 1000;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
